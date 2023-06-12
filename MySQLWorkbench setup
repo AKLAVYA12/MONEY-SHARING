@@ -1,0 +1,9 @@
+Create a database name - moneydata
+In database create a table name - register 
+the specification of the register table is (column1 name -> id - datatype(INT,PRIMARY kEY,NOT NULL,AUTO INCREMENT))
+                                           (column2 name -> username - datatype(VARCHAR(225),NOT NULL))
+                                           (column3 name -> password - datatype(VARCHAR(225),NOT NULL))
+In database create another table name - rooms
+the specification of the rooms table is (column1 name -> index - datatype(INT,PRIMARY kEY,NOT NULL,AUTO INCREMENT))
+                                        (column2 name -> roomname - datatype(VARCHAR(225),NOT NULL))
+                                        (column2 name -> password - datatype(VARCHAR(225),NOT NULL))
