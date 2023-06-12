@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global styles */
+body {
+  background: linear-gradient(45deg, #FFC107, #FF4081, #3F51B5, #00BCD4);
+  background-size: 800% 800%;
+  animation: gradientAnimation 12s ease infinite;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  padding: 90px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 20px;
+  color: #333;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.create-room-btn,
+.enter-room-btn,
+.register-name-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-room-btn:hover,
+.enter-room-btn:hover,
+.register-name-btn:hover {
+  background-color: #000000;
+}
+

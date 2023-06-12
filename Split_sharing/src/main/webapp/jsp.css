@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+.error-message {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-message1 {
+    color: #ff5500;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-message2 {
+    color: #ff00ff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}

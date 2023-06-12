@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="create.css">
+<title>Insert title here</title>
+</head>
+<body>
+ <h1>Create Room</h1>
+
+    <form action="create.jsp" method="POST">
+        <label for="room_name">Room Name:</label>
+        <input type="text" id="room_name" name="room_name" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+         <label for="confirm password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+        <input type="submit" value="Create Room">
+    </form>
+    
+</body>
+</html>
