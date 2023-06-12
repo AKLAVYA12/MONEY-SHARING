@@ -1,13 +1,10 @@
-/* styles.css */
 
-/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set global styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -91,7 +88,7 @@ body {
 
 .expense-form32 input[type="submit"] {
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 10px;
   border: 1px solid #ff0000;
   margin-bottom: 10px;
 }
@@ -103,6 +100,32 @@ body {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.paytm-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease; 
+}
+
+.paytm-button:hover {
+  background-color: #218838;
+}
+
+.paytm-button:focus {
+  outline: none;
 }
 
 .expense-form input[type="submit"]:hover {

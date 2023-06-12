@@ -80,5 +80,7 @@
         e.printStackTrace();
     }
 %>
+ <h3>Pay Through PAYTM</h3>
+ <button class="paytm-button" onclick="window.location.href='https://paytm.com/login'">Paytm Login</button>
 </body>
 </html>
